@@ -6,6 +6,7 @@ class Player {
     this.positionX = 0;
     this.positionY = 600;
     this.rank = 0;
+    this.rotation=0
     
   }
 
