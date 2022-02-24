@@ -21,13 +21,13 @@ class Player {
     var playerIndex = "players/player" + this.index;
 
     if (this.index === 1) {
-      this.positionX = width / 2 - 320;
+      this.positionX = width / 2 - 250;
     } else if (this.index === 2) {
-      this.positionX = width / 2 - 150;
+      this.positionX = width / 2 - 100;
     } else if (this.index === 3) {
-      this.positionX = width / 2 + 150;
+      this.positionX = width / 2 + 100;
     } else if (this.index === 4) {
-      this.positionX = width / 2 + 320;
+      this.positionX = width / 2 + 250;
     }
 
     database.ref(playerIndex).set({
